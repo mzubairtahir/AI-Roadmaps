@@ -1,0 +1,56 @@
+
+projectdo.md
+
+extras/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore .env file containing sensitive information
+.env
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore logs and other runtime files
+*.log
+*.out
+*.pid
+*.gz
+*.tar
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+
+# Ignore coverage reports
+.coverage
+coverage.xml
+*.cover
+*.hypothesis/
+
+# Ignore Python distribution and packaging files
+*.egg-info/
+dist/
+build/
+*.tar.gz
+
+# Ignore Docker-related files (if applicable)
+docker-compose.override.yml
+Dockerfile
+
+# Ignore other potential sensitive or unnecessary files
+*.env.local
+*.env.prod
+*.env.staging
+
+
